@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T16:55:21.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="PPzt2DDuMhgDYNGKD-Ja" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T17:04:51.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="xasoQByV4ve48dgON_Ny" version="15.2.9" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2073" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1822" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,6 +232,110 @@
         </mxCell>
         <mxCell id="M-KNJrDklRf5NZTeeunS-97" value="Navigate to Setup Wizard Page" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="M-KNJrDklRf5NZTeeunS-96">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-99" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-100" value="IsNavigateFromSpecificUrl&lt;br&gt;(is-navigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-101" value="Change password" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-99" target="M-KNJrDklRf5NZTeeunS-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="740" as="sourcePoint" />
+            <mxPoint x="10" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-103" value="Previous URL is &quot;/auth/login&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="805" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-104" value="Validate previous URL is /auth/login" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-100" target="M-KNJrDklRf5NZTeeunS-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1000" as="sourcePoint" />
+            <mxPoint x="410" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-105" value="Change Password Page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-106" value="Login-Page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-107" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-103" target="M-KNJrDklRf5NZTeeunS-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="535" as="sourcePoint" />
+            <mxPoint x="760" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-108" value="Navigate to change-password page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="M-KNJrDklRf5NZTeeunS-107">
+          <mxGeometry x="-0.184" y="-4" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-110" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="820" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-111" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-103" target="M-KNJrDklRf5NZTeeunS-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="860" as="sourcePoint" />
+            <mxPoint x="1030" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-112" value="Navigate to Login Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="M-KNJrDklRf5NZTeeunS-111">
+          <mxGeometry x="-0.184" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-113" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="895" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-114" value="IsNavigateFromSpecificUrl&lt;br&gt;(is-navigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1065" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-115" value="Previous URL is &quot;/auth/login&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1050" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-116" value="Validate previous URL is /auth/login" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-114" target="M-KNJrDklRf5NZTeeunS-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1245" as="sourcePoint" />
+            <mxPoint x="410" y="1245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-117" value="Login-Page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1305" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-118" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="780" as="sourcePoint" />
+            <mxPoint x="1020" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-119" value="Navigate to change-password page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="M-KNJrDklRf5NZTeeunS-118">
+          <mxGeometry x="-0.184" y="-4" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-120" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1065" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-121" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-115" target="M-KNJrDklRf5NZTeeunS-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1105" as="sourcePoint" />
+            <mxPoint x="1030" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-122" value="Navigate to Login Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="M-KNJrDklRf5NZTeeunS-121">
+          <mxGeometry x="-0.184" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-123" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1140" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M-KNJrDklRf5NZTeeunS-124" value="Change password" style="endArrow=classic;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-99" target="M-KNJrDklRf5NZTeeunS-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="860" as="sourcePoint" />
+            <mxPoint x="50" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
