@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T17:55:38.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="PNaLL0uUa4nSocTSe8A0" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T02:33:31.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="KQVMIW-trfc0tCoDoAQL" version="15.2.9" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1763" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2035" dy="1266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M-KNJrDklRf5NZTeeunS-158" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=0;direction=east;" vertex="1" parent="1">
           <mxGeometry x="2410" y="-135" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M-KNJrDklRf5NZTeeunS-159" value="IsNavigateFromSpecificUrl&lt;br&gt;(is-navigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;direction=east;" vertex="1" parent="1">
+        <mxCell id="M-KNJrDklRf5NZTeeunS-159" value="NavigateFromSpecificUrl&lt;br&gt;(navigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;direction=east;" vertex="1" parent="1">
           <mxGeometry x="1805" y="-150" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-KNJrDklRf5NZTeeunS-160" value="Change password" style="endArrow=classic;html=1;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;sketch=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-KNJrDklRf5NZTeeunS-158" target="M-KNJrDklRf5NZTeeunS-159">
@@ -34,7 +34,7 @@
             <mxPoint x="1535" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-KNJrDklRf5NZTeeunS-171" value="IsNavigateFromSpecificUrl&lt;br&gt;(is-navigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;direction=east;" vertex="1" parent="1">
+        <mxCell id="M-KNJrDklRf5NZTeeunS-171" value="NavigateFromSpecificUrl&lt;br&gt;(inavigate-from-specific-url-guard.guard.ts)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;direction=east;" vertex="1" parent="1">
           <mxGeometry x="1815" y="115" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M-KNJrDklRf5NZTeeunS-172" value="Previous URL is &quot;/auth/reset-password&quot;?" style="rhombus;whiteSpace=wrap;html=1;sketch=0;direction=east;" vertex="1" parent="1">
